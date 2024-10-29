@@ -1,0 +1,78 @@
+/* External CSS */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form-container, .resume-container {
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+    padding: 60px;
+    background: #222;
+    border-radius: 8px;
+    color: #fff;
+}
+
+h1 {
+    color: #00c0ff;
+    text-align: center;
+}
+
+h2 {
+    color: #00c0ff;
+   
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border-radius: 4px;
+    border: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #00c0ff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #008fb3;
+}
+
+.resume-header h1 {
+    font-size: 2em;
+}
+
+.resume-body h2 {
+    color: #00c0ff;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .form-container, .resume-container {
+        width: 90%;
+    }
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 0 auto;
+    text-align: center
+}
